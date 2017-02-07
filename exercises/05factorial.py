@@ -5,7 +5,13 @@
 #
 # Example method call
 #
-# factorial(5)
+def factorial(num):
+    newnum = num
+    while num > 1:
+        newnum = newnum*(num-1)
+        num = num-1
+    print(newnum);
+factorial(5)
 #
 # > 120
 #
